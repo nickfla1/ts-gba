@@ -1,0 +1,17 @@
+{
+	"name": "ts-gba",
+	"packageManager": "yarn@4.9.1",
+	"type": "module",
+	"scripts": {
+		"dev": "node --watch main.ts",
+		"start": "node main.ts",
+		"test": "borp",
+		"test:coverage": "borp --coverage"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.15.18",
+		"borp": "^0.20.0",
+		"typescript": "^5.8.3"
+	}
+}
